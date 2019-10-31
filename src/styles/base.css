@@ -37,6 +37,7 @@ input {
   color: white;
   font-size: 15px;
   cursor: pointer;
+  padding-left: 10px;
 }
 
 .inputs ::placeholder {
@@ -62,6 +63,7 @@ input {
 }
 
 .error {
+  border: 1px solid red;
 }
 
 .profile {

@@ -91,7 +91,7 @@ function App(props) {
       <div className="main">
         <div className="profile">Profile Form - All field required</div>
         <form onSubmit={handleSubmit} className="inputs">
-          <label className="error">Name {imeError}</label>
+          <label className="nerror">Name {imeError}</label>
           <input
             className={imeError === "" ? "" : "error"}
             onChange={element => setIme(element.target.value)}
@@ -148,7 +148,7 @@ function App(props) {
           <button className="button" type="submit" placeholder="Submit">
             Submit
           </button>
-          <Link to="/sub">ddd</Link>
+          <Link className="bum" to="/sub"></Link>
         </form>
       </div>
       <Route exact path="/" component={sub} />
